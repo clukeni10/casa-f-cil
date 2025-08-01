@@ -1,19 +1,11 @@
-import { Provider } from "@/components/ui/provider"
-import './App.css'
-import { Box } from "@chakra-ui/react"
+import { Provider } from "@/components/ui/provider";
+import "./App.css";
+import Index from "./app/ui/pages";
 
-export default  function App() {
-
-
+export default function App() {
   return (
     <Provider>
-      <Box
-        bg="red"
-        w="100vw"
-        h="100vh"
-      ></Box>
+      <Index />
     </Provider>
-  )
+  );
 }
-
-
