@@ -12,7 +12,7 @@ export default function Card() {
       rounded="md"
       shadow="xl"
       border="1px solid rgba(0,0,0,0.1)"
-      _hover={{cursor: "pointer"}}
+      _hover={{cursor: "pointer", bg: "#f6f6f6"}}
     >
       <Image
         src="/casa1.png"

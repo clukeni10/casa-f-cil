@@ -4,8 +4,11 @@ export default function Hero(){
       return(
             <Box
                   w="100vw"
-                  h="40vh"
-                  bg="#555"
+                  h="50vh"
+                  bgImage="url('/casa2.png')"
+                  bgRepeat="no-repeat"
+                  bgSize="cover"
+                  bgPos="center"
             >
                   
             </Box>

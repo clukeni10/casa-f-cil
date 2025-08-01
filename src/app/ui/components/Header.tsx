@@ -1,4 +1,5 @@
 import { Box, Text, HStack, Button, Heading } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -16,10 +17,10 @@ export default function Header() {
       </HStack>
 
       <HStack gap="4" color="white" fontWeight="medium" fontSize="xl">
-        <Text>Início</Text>
-        <Text>Imóveis</Text>
-        <Text>Sobre</Text>
-        <Text>Contatos</Text>
+        <Text><Link to="/">Início</Link></Text>
+        <Text><Link to="/imoveis">Imóveis</Link></Text>
+        <Text><Link to="/sobre">Sobre</Link></Text>
+        <Text><Link to="/contatos">Contatos</Link></Text>
         <Button
           bg="#0077b6"
           shadow="xs"
